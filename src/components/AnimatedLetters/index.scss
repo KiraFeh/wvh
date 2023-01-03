@@ -1,0 +1,29 @@
+@use "sass:math";
+
+// animate letters with bouncein, make them inline because they are text
+.text-animate {
+    display: inline-block;
+    // start with opacity 0 so that letters don't show up right away
+    opacity: 0;
+    animation: bounceIn 1s 1s forwards;
+    min-width: 10px;
+}
+
+// on hover, turn animated letters yellow and apply rubberBand animation
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+    
+    &:hover {
+        color: #ffd700;
+        animation: rubberBand 1s;
+    }
+}
+
+// works for up to 35 letters in a char array, each letter is 0.1s apart
+@for $i from 1 through 35 {
+    .text-animate._#{$i} {
+        animation-delay: #{math.div($i, 10)}s;
+    }
+}

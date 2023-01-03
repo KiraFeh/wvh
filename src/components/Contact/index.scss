@@ -1,0 +1,151 @@
+// header in contact page
+.contact-page {
+    .text-zone {
+        // contact me header
+        h1 {
+            color: #fff;
+        }
+
+        // text above form
+        p {
+            color: rgb(255, 255, 255);
+            font-size: 21px;
+            font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+        }
+    }
+}
+
+// contact form
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    // list of forms to fill
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 1s 1s forwards;
+            clear: both;
+            
+            // subject form
+            &:nth-child(3) {
+                width: 99.5%;
+                border: 2px solid #000;
+            }
+        }
+
+        // name and email forms
+        li.half {
+            width: 49%;
+            border: 2px solid #000;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+            box-sizing: border-box;
+
+            // name form
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    // target all input areas in contact form (not the boxes)
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: #732311;
+        height: 50px;
+        font-size: 19px;
+        font-family: "Calibri";
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    // styles the "message" field of the form
+    textarea {
+        width: 100%;
+        border: 2px solid #000;
+        background-color: #732311;
+        height: 50px;
+        color: #fff;
+        font-size: 19px;
+        font-family: "Calibri";
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    // styles the "send" button
+    .flat-button {
+        color: #ffd700;
+        background: 0 0;
+        font: 12px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 10px 12px;
+        border: 1px solid #ffd700;
+        float: left;
+        border-radius: 4px;
+
+        &:hover {
+            background: #ffd700;
+            color: #000;
+        }
+    }
+}
+
+// block containing contact info
+.info-map {
+    position: relative;
+    display: block;
+    background-color: #000;
+    margin-bottom: 5%;
+    top: -2em;
+    left: 0%;
+    z-index: 3;
+    width: 267px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Coolvetica';
+    font-size: 17px;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+    }
+}
+
+// wrapper for the interactive map
+.map-wrap {
+    background: rgba(8, 253, 216, 0.1);
+    float: right;
+    width: 53%;
+    height: 100%;
+}
+
+// interactive map
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 1s 1.2s forwards;
+}

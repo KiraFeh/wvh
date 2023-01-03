@@ -1,0 +1,101 @@
+@use "sass:math";
+
+.home-page {
+    // define a default color and an array of colors to pick from at random
+    $fillColors: rgb(236, 70, 70), yellow, orange, blue, green, purple, violet;
+
+    .text-zone {
+        // background-color: #000;
+        z-index: 3;
+        position: absolute;
+        left: 10%;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 30%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+
+    h2 {
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 13px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #ffd700;
+        font: 400 13px sans-serif;
+        letter-spacing: 4px;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        border-radius: 4px;
+        float: left;
+        animation: fadeIn 0.5s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ffd700;
+            color: #000;
+        }
+    }
+
+    .logo-drawing {
+        width: 60%;
+        height: 90%;
+        float: right;
+        display: flex;
+        align-items: center;
+        max-height: 90%;
+
+        // draw logo svg with default color
+        #desktop-logo {
+            padding-left: 15%;
+
+            #screen {
+                stroke: #8d8d8d;
+                animation: fadeIn 1s 1s backwards;
+            }
+            #slash {
+                fill: #8d8d8d;
+                animation: fadeIn 1s 1.2s backwards;
+            }
+            #left-bracket {
+                fill: #8d8d8d;
+                animation: fadeIn 1s 1.4s backwards;
+            }
+            #right-bracket {
+                fill: #8d8d8d;
+                animation: fadeIn 1s 1.6s backwards;
+            }
+            #monitor-stand {
+                fill: #8d8d8d;
+                animation: fadeIn 1s 1.8s backwards;
+            }
+            #w {
+                fill: #8d8d8d;
+                animation: fadeIn 1s 2s backwards;
+            }
+
+            // change brackets and slash in svg to random color when hovered
+            &:hover {
+                #slash, #left-bracket, #right-bracket {
+                    fill: nth($fillColors, math.random(7));
+                }
+            }
+
+        }
+    }
+}
