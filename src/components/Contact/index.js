@@ -30,8 +30,7 @@ const Contact = () => {
             // alert user that the form was sent properly and reload
             .then(
                 (result) => {
-                    alert('Message sent!')
-                    window.location.reload(false);
+                    alert('Message sent!');
                 },
                 () => {
                     alert('Failed to send message, please retry.');
