@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wvh/static/css/main.b24a9fd3.css",
-    "main.js": "/wvh/static/js/main.cac6c85c.js",
+    "main.css": "/wvh/static/css/main.d729e5c2.css",
+    "main.js": "/wvh/static/js/main.eb9cde3c.js",
     "static/js/787.749b4a44.chunk.js": "/wvh/static/js/787.749b4a44.chunk.js",
     "static/media/toronto.jpg": "/wvh/static/media/toronto.fc02e69900fcad5abe91.jpg",
     "static/media/helvetica-neu.ttf": "/wvh/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/CoolveticaRg-Regular.woff2": "/wvh/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo.svg": "/wvh/static/media/logo.6f93634b0a4030d5f49c52d2d99f2209.svg",
     "index.html": "/wvh/index.html",
-    "main.b24a9fd3.css.map": "/wvh/static/css/main.b24a9fd3.css.map",
-    "main.cac6c85c.js.map": "/wvh/static/js/main.cac6c85c.js.map",
+    "main.d729e5c2.css.map": "/wvh/static/css/main.d729e5c2.css.map",
+    "main.eb9cde3c.js.map": "/wvh/static/js/main.eb9cde3c.js.map",
     "787.749b4a44.chunk.js.map": "/wvh/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b24a9fd3.css",
-    "static/js/main.cac6c85c.js"
+    "static/css/main.d729e5c2.css",
+    "static/js/main.eb9cde3c.js"
   ]
 }
