@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/wvh/static/css/main.c3e835e4.css",
-    "main.js": "/wvh/static/js/main.84539590.js",
+    "main.css": "/wvh/static/css/main.b24a9fd3.css",
+    "main.js": "/wvh/static/js/main.cac6c85c.js",
     "static/js/787.749b4a44.chunk.js": "/wvh/static/js/787.749b4a44.chunk.js",
     "static/media/toronto.jpg": "/wvh/static/media/toronto.fc02e69900fcad5abe91.jpg",
     "static/media/helvetica-neu.ttf": "/wvh/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/wvh/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/wvh/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo.svg": "/wvh/static/media/logo.6f93634b0a4030d5f49c52d2d99f2209.svg",
     "index.html": "/wvh/index.html",
-    "main.c3e835e4.css.map": "/wvh/static/css/main.c3e835e4.css.map",
-    "main.84539590.js.map": "/wvh/static/js/main.84539590.js.map",
+    "main.b24a9fd3.css.map": "/wvh/static/css/main.b24a9fd3.css.map",
+    "main.cac6c85c.js.map": "/wvh/static/js/main.cac6c85c.js.map",
     "787.749b4a44.chunk.js.map": "/wvh/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3e835e4.css",
-    "static/js/main.84539590.js"
+    "static/css/main.b24a9fd3.css",
+    "static/js/main.cac6c85c.js"
   ]
 }
